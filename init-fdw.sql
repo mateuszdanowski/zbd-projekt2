@@ -1,0 +1,5 @@
+CREATE EXTENSION file_fdw;
+CREATE SERVER csv_file_server FOREIGN DATA WRAPPER file_fdw;
+
+CREATE EXTENSION cstore_fdw;
+CREATE SERVER cstore_server FOREIGN DATA WRAPPER cstore_fdw;
